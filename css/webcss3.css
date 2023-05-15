@@ -1,0 +1,80 @@
+a:link, a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+#superior
+{
+    display: grid;
+    grid-template-areas:
+            'title'
+            'cartSummary';
+}
+
+#cartSummary img
+{
+    width:70px;
+    height:70px;
+    padding-left: 10px;
+}
+
+#cartSummary{
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: indianred;
+    color: black;
+    text-align: end;
+}
+#cartSummary div
+{
+    margin-right: 100px;
+}
+
+#titol{
+    align-content: center;
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: lightgray;
+    right: 200px;
+    text-align: center;
+
+}
+#body h1
+{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+#body
+{
+    padding: 10px;
+    display: grid;
+    background-color: black;
+    column-gap: 1px;
+    row-gap: 5px;
+    grid-template-areas: 
+    'gos camaleo gat'
+    'peix tortuga ocell';
+}
+
+#desplegat
+{
+    display: none;
+    position: absolute;
+    right: 5%;
+    text-align:left;
+    z-index: 1;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    width: 170px;
+}

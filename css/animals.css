@@ -1,0 +1,21 @@
+#zonaVenta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px 5px;
+
+}
+
+#article
+{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+}
+
+#foto{
+    padding: 10px; margin: 10px; border: 2px solid black; float: left;
+    background-color: aqua;
+    width: 250px;
+    height: 500px;
+}

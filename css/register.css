@@ -1,0 +1,23 @@
+#register
+{
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 35%;
+    left: 55%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+#titol
+{
+    position: fixed;
+    left:42%;
+    top:10%;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+    color: purple;
+}
